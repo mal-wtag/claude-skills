@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "raffael",
+  "description": "What would Raffael review? Find out before he does.",
+  "owner": {
+    "name": "Mujadded"
+  },
+  "plugins": [
+    {
+      "name": "raffael-review",
+      "description": "What would Raffael review? Get his PR review before he does, IMHO.",
+      "source": "./plugins/raffael-review",
+      "category": "productivity"
+    }
+  ]
+}

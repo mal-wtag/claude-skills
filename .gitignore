@@ -1,0 +1,7 @@
+# Maintainer-only files that live next to the skill but are never shared:
+# the GitHub review log and its sync script, personal predictions, backups.
+plugins/*/skills/*/reviews.md
+plugins/*/skills/*/predictions.md
+plugins/*/skills/*/sync.sh
+plugins/*/skills/*/.bak/
+.DS_Store
